@@ -1,0 +1,12 @@
+/* 282c34 */
+/* 61dafb */
+
+.App{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.App >button{
+    padding: 15px;
+    border-radius: 10px;
+}
