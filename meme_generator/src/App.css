@@ -1,0 +1,69 @@
+/* 
+#282c34;
+ #61dafb; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ header{
+  height: 80px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  background-color:  #282c34;
+  color: white;
+ }
+
+ .header_logo{
+  max-height: 100%;
+ }
+
+ .header_title{
+  margin-right: auto;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+ }
+
+ .header_project_title{
+  margin-right: 10px;
+  letter-spacing: 0.05em;
+  font-size: 1em;
+ }
+
+ main{
+  margin: 2rem auto;
+    /* background-color: cadetblue; */
+  background-color:  #282c34;
+  max-width: 800px;
+
+ }
+
+ form{
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr ;
+  padding: 0.5rem;
+  justify-content: center;
+  align-content: center;
+ }
+
+ input{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  min-width: 5rem;
+ }
+
+ input[type=button]{
+  /* grid-column-start: 1; 
+  grid-column-end: 3;  */
+  grid-column: 1/3;
+  background-color:  #61dafb;
+  color: #282c34;
+  font-size: 18px;
+  font-weight: 700;
+  /* min-width: 5rem; */
+  
+}
+
+ 
